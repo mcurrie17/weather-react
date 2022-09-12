@@ -100,14 +100,14 @@ export default function Weather() {
         <div className="weatherForecast"></div>
         <footer>
           This app was coded by Megan Currie and is
-          <a
-            href="https://github.com/mcurrie17/My-Weather-App"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/mcurrie17/weather-react" rel="noreferrer">
             open-sourced on GitHub
           </a>
           and
-          <a href="https://mellow-boba-163d89.netlify.app/" rel="noreferrer">
+          <a
+            href="https://sparkly-malasada-b85d1a.netlify.app"
+            rel="noreferrer"
+          >
             hosted on Netlify.
           </a>
         </footer>
