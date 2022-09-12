@@ -99,17 +99,12 @@ export default function Weather() {
           This app was coded by Megan Currie and is
           <a
             href="https://github.com/mcurrie17/My-Weather-App"
-            target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>
           and
-          <a
-            href="https://mellow-boba-163d89.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://mellow-boba-163d89.netlify.app/" rel="noreferrer">
             hosted on Netlify.
           </a>
         </footer>
