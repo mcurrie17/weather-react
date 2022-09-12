@@ -77,11 +77,14 @@ export default function Weather() {
                   <span className="temperature">{weatherAppData.temp}</span>
                   <span className="unit">
                     {" "}
-                    <a href="#" className="active">
+                    <a href="/" className="active" rel="noreferrer">
                       {" "}
                       °F{" "}
                     </a>
-                    |<a href="#">°C </a>{" "}
+                    |
+                    <a href="/" rel="noreferrer">
+                      °C{" "}
+                    </a>{" "}
                   </span>
                   <div className="feels-like">
                     {" "}
