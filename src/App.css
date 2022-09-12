@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ecfcfc;
+  font-family: "Karla", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainIcon {
+  display: block;
+  height: 125px;
+  padding-right: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weatherWrapper {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 1px solid lightgray;
+  margin: 30px;
+}
+.searchBar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.weatherWrapper .search-input {
+  height: 50px;
+}
+.btn.locationButton {
+  background: #fff;
+  border: 0.5px solid #a8a5b4;
+  font-size: 30px;
+  padding-top: 4px;
+  padding-right: -40px;
+}
+.btn {
+  background: #7fa99b;
+  padding: 11px 0;
+  border: none;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: #7fa99b;
+  cursor: pointer;
+  transition: color, 0.1s;
+}
+.city {
+  margin: 25px 0 18px;
+  line-height: 29px;
+  font-size: 60px;
+  line-height: 48px;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.searchInfo ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+.searchInfo li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 25px;
+  list-style: none;
+  color: #a8a5b4;
+}
+.bullet {
+  color: #7fa99b;
+}
+.highlightColor {
+  color: #df8543;
+}
+.searchInfo .temperature-container {
+  margin-top: 30px;
+}
+.currentTemp {
+  margin-right: 10px;
+}
+.searchInfo .temperature {
+  font-size: 80px;
+  line-height: 1;
+}
+.searchInfo .unit {
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  font-size: 30px;
+  font-weight: 1;
+}
+.searchInfo a {
+  text-decoration: none;
+}
+.searchInfo a:hover {
+  text-decoration: underline;
+}
+.searchInfo .active {
+  color: black;
+  cursor: default;
+}
+.searchInfo .active:hover {
+  text-decoration: none;
+}
+.feels-like {
+  font-size: 20px;
+  line-height: 25px;
+  color: #a8a5b4;
+}
+.weatherForecast {
+  text-align: center;
+  margin: 40px 0;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 50px;
+}
+.forecastDate {
+  text-decoration: 0.5px underline lightgray;
+}
+.forecastIcon {
+  margin-top: 10px;
+  height: 25px;
+}
+.forecastTempMin {
+  font-weight: 200;
+  color: #7fa99b;
+  line-height: 3;
+  padding-left: 7px;
+}
+.forecastTempMax {
+  color: #df8543;
+  line-height: 3;
+  padding-right: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherWrapper footer {
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
 }
