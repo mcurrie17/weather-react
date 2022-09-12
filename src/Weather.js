@@ -97,12 +97,20 @@ export default function Weather() {
         <div className="weatherForecast"></div>
         <footer>
           This app was coded by Megan Currie and is
-          <a href="https://github.com/mcurrie17/My-Weather-App" target="_blank">
-             open-sourced on GitHub
+          <a
+            href="https://github.com/mcurrie17/My-Weather-App"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
           </a>
           and
-          <a href="https://mellow-boba-163d89.netlify.app/" target="_blank">
-             hosted on Netlify.
+          <a
+            href="https://mellow-boba-163d89.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify.
           </a>
         </footer>
       </div>
